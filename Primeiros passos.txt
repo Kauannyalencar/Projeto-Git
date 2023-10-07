@@ -1,0 +1,7 @@
+1 - Git init = Inicia um repositório no local atual.
+
+2 - Git status = Ver o status do local. Se existe arquivos para commitar.
+
+3 - Git add = Adiciona um arquivo por vez, colocando o nome do file entre ""
+
+    3.1 - Git add . = Adiciona todos os arquivos de uma vez
