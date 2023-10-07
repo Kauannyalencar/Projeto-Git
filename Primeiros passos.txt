@@ -5,3 +5,12 @@
 3 - Git add = Adiciona um arquivo por vez, colocando o nome do file entre ""
 
     3.1 - Git add . = Adiciona todos os arquivos de uma vez
+
+4 - Git commit -m "mensagem" = Commitar, "salvar", os arquivos para serem mandados pro servidor.
+
+5 - Git remote add origin "http do repositorio" = Diz para onde mandar os arquivos.
+
+6 - Git push = Manda osarquivos para o repositório.
+
+    CICLO DE  ATUALIZAÇÃO DE CÓDIGO
+Repita o mesmo processo de git add . e commit -m com sua mensagem para adicionar as modificações ao repositório
