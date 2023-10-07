@@ -13,4 +13,4 @@
 6 - Git push = Manda osarquivos para o repositório.
 
     CICLO DE  ATUALIZAÇÃO DE CÓDIGO
-Repita o mesmo processo de git add . e commit -m com sua mensagem para adicionar as modificações ao repositório
+Repita o mesmo processo de git add ., commit -m com sua mensagem e push para adicionar as modificações ao repositório
