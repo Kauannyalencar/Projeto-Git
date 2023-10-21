@@ -10,7 +10,22 @@
 
 5 - Git remote add origin "http do repositorio" = Diz para onde mandar os arquivos.
 
-6 - Git push = Manda osarquivos para o repositório.
+6 - Git push = Manda os arquivos para o repositório.
 
     CICLO DE  ATUALIZAÇÃO DE CÓDIGO
 Repita o mesmo processo de git add ., commit -m com sua mensagem e push para adicionar as modificações ao repositório
+
+7 - Git relog = Mostra o histórico de atualizações
+
+ 7.1 Git --hard 'id da versão'' = Volta para a versão anterior que deseje.
+
+ 7.2 Git reset --hard id = Leva a versão mais atualizada
+
+ 
+ - Branch = São como caminhos de versionamento de código.
+
+Comandos: 
+
+- Git branch = Lista as branch's dispóniveis 
+
+- Git baranch 'nome' = Cria uma branch como nome de sua escolha.
