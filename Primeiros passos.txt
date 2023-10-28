@@ -37,5 +37,6 @@ Comandos:
   Após mudar de branch, seus códigos serão salvos na branch atual.
   Quando trabalhando com uma branch nova e quiser manda-la para o Github, use o comando dado peo git.
 
+    Saindo da branch que acabou de fazer as alterações usando o git checkout e indo para a branch principal para mandar seu código atualizado. Não esqueça de commitar e mandar para o repositório
 
-- Git merge 'nome da branch' = O comando para unir códigos
+- Git merge 'nome da branch' = O comando para unir códigos.
