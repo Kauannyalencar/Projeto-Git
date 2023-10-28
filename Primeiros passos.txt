@@ -32,4 +32,10 @@ Comandos:
 
 - Git checkout "nome da branch" = Muda de branch 
 
-- Merging = 
+    Alterações para outra branch
+
+  Após mudar de branch, seus códigos serão salvos na branch atual.
+  Quando trabalhando com uma branch nova e quiser manda-la para o Github, use o comando dado peo git.
+
+
+- Git merge 'nome da branch' = O comando para unir códigos
