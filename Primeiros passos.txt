@@ -28,4 +28,8 @@ Comandos:
 
 - Git branch = Lista as branch's dispóniveis 
 
-- Git baranch 'nome' = Cria uma branch como nome de sua escolha.
+- Git branch 'nome' = Cria uma branch como nome de sua escolha.
+
+- Git checkout "nome da branch" = Muda de branch 
+
+- Merging = 
