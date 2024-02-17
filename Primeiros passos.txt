@@ -1,0 +1,87 @@
+1 - Git init = Inicia um repositório no local atual.
+
+2 - Git status = Ver o status do local. Se existe arquivos para commitar.
+
+3 - Git add = Adiciona um arquivo por vez, colocando o nome do file entre ""
+
+    3.1 - Git add . = Adiciona todos os arquivos de uma vez
+
+4 - Git commit -m "mensagem" = Commitar, "salvar", os arquivos para serem mandados para o servidor.
+
+    4.1 - Quando um arquivo já existe mas foi modificado, use git commit -am "mensagem", terá o mesmo feito do commit, mas add todos os arquivos
+
+5 - Git remote add origin "http do repositorio" = Diz para onde mandar os arquivos.
+   
+    5.1 - Git clone git@github.com:USER-NAME/REPOSITORY-NAME.git =  Clona o repositório do git para o computador
+    5.1.2 - Pega a chave SSH, algo como "git@github.com:Kauannyalencar/rock-paper-scissors.git"
+    5.1.3 - No terminal usa o git clone junto a chave SSH.
+
+6 - Git push -u = Manda os arquivos para o repositório.
+
+    CICLO DE  ATUALIZAÇÃO DE CÓDIGO
+Repita o mesmo processo de git add ., commit -m com sua mensagem e push para adicionar as modificações ao repositório
+
+7 - Git reflog = Mostra o histórico de atualizações
+
+    7.1 Git log = Parecido com o reflog, mostra o histórico de atualizações, sendo o log público e reflog privado.
+
+    7.1.1 git log --author 'name' = Filtra por autor.
+
+    7.1.2 git shortlog = Em ordem alfabetica mostra quais os autores, os seus commits e quantos foram.
+
+8 - Git diff = Mostra as alterações antes de commitar, é uma prática de revisão.
+ 
+    8.1 git diff --name-only - Mostra só nome dos arquivos.
+
+9 - Git reset HEAD 'file name' = Remove do stage o  arquivo
+    9.1 git rest --soft - Apenas tira o commit feito, mantendo o arquivo no staged
+
+    9.2 git reset --mixed versão- Volta os arquivos para antes do staged, quando foram modificados mas ainda não adicionados.
+
+    9.3 get reset --hard - Ignora o commit e tudo dele.
+
+    9.3.1 Git reset --hard id = Volta para a versão anterior de sua escolha. Also leva para a versão mais atualizada usando id
+
+    9.3.2 O reset hard altera o histórico do commit, se já tiver dado push irá causa conflito, só resolvido com "force"
+
+10. Git reset --hard id = Volta para a versão anterior de sua escolha. Also leva para a versão mais atualizada usando id
+
+
+ - Branch = São como caminhos de versionamento de código.
+
+Comandos: 
+
+- Git branch = Lista as branch's dispóniveis 
+
+- Git branch 'nome' = Cria uma branch com nome de sua escolha.
+
+- Git checkout "nome da branch" = Muda de branch 
+
+    Alterações para outra branch
+
+  Após mudar de branch, seus códigos serão salvos na branch atual.
+  Quando se está trabalhando com uma branch nova e quiser manda-la para o Github, use o comando dado pelo git.
+
+    Saindo da branch que acabou de fazer as alterações usando o git checkout e indo para a branch principal para mandar seu código atualizado. Não esqueça de commitar e mandar para o repositório
+
+- Git merge 'nome da branch' = O comando para 
+unir códigos.
+
+- Git pull = Traz as atualizações do servidor para a branch atual. Use antes de fazer o merge.
+      Ordem para quando estiver trabalhando em equipe ou com diferentes branch's
+          
+   1.git pull da branch principal
+   2.Gerar uma nova branch a partir da principal
+   3.Trabalhar e adicionar novas funcionalidades na nova branch que criou 
+   4.Finalizar o trabalho na branch principal.
+   5.Git checkout na branch temporária.
+   6.Git pull
+   7.Mergiar(unir) o código da branch temporária com a branch principal(teste antes)
+   8.Git push da branch principal.
+
+Pull request =  Quando manda o código para outra pessoa da equipe aprovar.
+
+Git Ignore = Para alguns arquivos que você não queira mandar para o versionamento, arquivos confidenciais seus.
+    - No terminal no git use o comando touch .gitignore = Vai criar um arquivo.
+    Nome da pasta + /
+    Nome do arquivo.formato
