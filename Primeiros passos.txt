@@ -42,7 +42,7 @@ Repita o mesmo processo de git add ., commit -m com sua mensagem e push para adi
 
     9.3.1 Git reset --hard id = Volta para a versão anterior de sua escolha. Also leva para a versão mais atualizada usando id
 
-    9.3.2 O reset hard altera o histórico do commit, se já tiver dado push irá causa conflito, só resolvido com "force"
+    9.3.2 - O reset hard altera o histórico do commit, se já tiver dado push irá causa conflito, só resolvido com "force"
 
 10. Git reset --hard id = Volta para a versão anterior de sua escolha. Also leva para a versão mais atualizada usando id
 
